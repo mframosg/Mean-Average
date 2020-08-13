@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+:root{
+    --colorText: gray;
+}
+body {
+    background: url("img/background.png");
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    /**background: linear-gradient(to right, lightgreen ,lightblue);*/
+}
+form{
+    background: #fff;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+.form .group{
+    position: relative;
+    margin: 45px;
+}
+
+input{
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorText);
+}
+
+h1{
+    text-align: center;
+    font-weight: 700px;
+}
+
+input:focus{
+    color: rgb(94, 93, 93);
+}
+
+label{
+    color: black;
+    font-size: 16px;
+    top: -18px;
+    font-size: 12px;
+}
+
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.button{
+    background: lightseagreen;
+    color: black;
+    font-weight: 150%;
+    margin-top: 30px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+div{
+    margin-top: 40px;
+}
+
+#good{
+    width: 200px;
+    margin-left: 10px;
+}
+
+.bad{
+    width: 200px;
+}
+
+/*Button**/
+.button {
+    -webkit-transition: all 100ms;
+    align-items: center;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-around;
+    margin: 1rem 1.5rem;
+    overflow: hidden;
+    text-align: center;
+    transition: all 100ms;
+    width: auto;
+    line-height: 3rem;
+}
+
+.button.border-color {
+    border: solid 3px green;
+    color: green;
+}
+
+.button.color {
+    background: green;
+    color: white;
+}
+
+.button .button-text {
+    margin: 0;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.05);
+    transition: all 100ms;
+}
