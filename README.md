@@ -20,3 +20,13 @@ Once located htdocs download this repository as zip file in that folder and unzi
 
 # How to use
 Firts of all open the program that you dowloaded (in my case XAMPP) and start the apache
+![](XAMPP.png)
+
+Aferter that, go to your local host
+(This is in my case)
+http://localhost/Php-project/
+And continue as I explained the use in this tutorail 
+https://www.youtube.com/watch?v=d4dX4dmBW6w
+
+
+
