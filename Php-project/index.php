@@ -10,6 +10,8 @@
 </head>
 
 <body>
+
+    <!-- Forms to request the data -->
     <form action="index.php" method="post">
         <div class="form">
         <h1>Mean Average</h1>
@@ -23,6 +25,7 @@
                 <button class="button color" type="submit" ><p class="button-text">Calculate</p></button>
                 <div>
                     <?php
+                        //Ask if all of the informations is complete
                         if(isset($_POST['name']) && isset($_POST['subject']) 
                         && isset($_POST['grade1']) && isset($_POST['grade2']) 
                         && isset($_POST['grade3']) && isset($_POST['grade4'])){
