@@ -69,6 +69,7 @@
                                 echo '<img src="img/button.jpg" alt="not found" id="good">';   
                                 printf ('<br>');
                                 echo "¡Very nice, continue studying!";
+                                
                             }
                         }
                     ?>
